@@ -15,7 +15,7 @@ public class MyConnectionFactory {
 		try {
 			
 			//DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/java", "root", "Ardninahp@1");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/springpractice", "root", "Mysql@123");
 
 		} catch (Exception e) {
 			e.printStackTrace();
